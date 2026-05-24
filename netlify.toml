@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/cinematic_portfolio.html"
+  to = "/"
+  status = 301
