@@ -1,5 +1,8 @@
 [build]
-  publish = "."
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 [[redirects]]
   from = "/cinematic_portfolio.html"
