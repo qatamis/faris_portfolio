@@ -20,7 +20,9 @@ npm start
 
 ## Deploy (Netlify)
 
-This repo includes `netlify.toml` for automatic Next.js builds. Connect the GitHub repo in Netlify; no custom publish directory is required.
+This repo includes `netlify.toml` for automatic Next.js builds. Connect the GitHub repo in Netlify.
+
+**Netlify UI:** Set **Publish directory** to `.next` (or leave blank so `netlify.toml` applies). Do not use `.` — that breaks the Next.js plugin.
 
 ## Sync to GitHub
 
